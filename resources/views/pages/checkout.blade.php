@@ -152,7 +152,7 @@
             <h2>Checkout Informations</h2>
             <table class="trip-informations">
               <tr>
-                <th width="50%">Members</th>
+                <th width="50%">Count</th>
                 <td width="50%" class="text-right">
                   {{ $item->details->count() }} Packages
                 </td>

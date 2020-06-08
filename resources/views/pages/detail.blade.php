@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Detail Travel')
+@section('title', 'Details')
 
 @section('content')
 <main>
@@ -98,7 +98,7 @@
         </div>
         <div class="col-lg-4">
           <div class="card card-details card-right">
-            <h2>Members</h2>
+            <h2>Count</h2>
             <div class="members my-2">
               <img
                 src="/frontend/images/member-1.png"
@@ -122,7 +122,7 @@
               />
             </div>
             <hr />
-            <h2>Trip Informations</h2>
+            <h2>Informations</h2>
             <table class="trip-informations">
               <tr>
                 <th width="50%">Execution Date</th>
